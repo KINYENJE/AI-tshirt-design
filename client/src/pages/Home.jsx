@@ -27,7 +27,7 @@ const Home = () => {
                 {...headContainerAnimation}>
                     <motion.div className='' {...headTextAnimation}>
                         <h1 className='head-text'>
-                            LET'S <br className='xl:block hidden'/>DO IT.
+                            LET'S <br className='xl:block hidden'/>'jenga'
                         </h1>
 
                         </motion.div >
@@ -36,10 +36,9 @@ const Home = () => {
                             className='flex flex-col gap-5'>
                             <p className='max-w-md font-normal text-gray-600
                                 text-base'>
-                                Create your unique and exclusive shirt with our 
-                                brand-new 3D customization tool. <strong>Unleash your 
-                                imagination
-                                </strong>{''} and define your own style.
+                                Create a unique and exclusive shirt with this 
+                                brand-new 3D customization tool. <strong><a href="https://github.com/KINYENJE/AI-tshirt-design">Developed By Kinyenje.😉</a>
+                                </strong>
                             </p>
 
                             <CustomButton
